@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() 
+{ 
+    int n,n1;
+    cout<<"enter the no. to find power "<<endl;
+    cin>>n;
+    cout<<"enter power "<<endl;
+    cin>>n1;
+    cout<<pow(n,n1);
+    cout<<abs(-3)<<endl;
+    cout<<cbrt(8)<<endl;
+    cout<<ceil(2.5)<<endl;
+    cout<<sin(30)<<endl;
+    cout<<round(2.4)<<endl;
+    cout<<trunc(2.9)<<endl;
+return 0;
+}
