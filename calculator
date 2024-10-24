@@ -1,0 +1,49 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int calc;
+   float n1,n2;
+    float sum,sub,mul,div;
+   cout <<"enter 1 to add\n enter 2 to sub\n enter 3 to mul\n enter 4 to div"<<endl;
+   cin>>calc;
+   
+   switch(calc)
+   {
+       case 1:
+       
+       cout<<"enter to nos. to add"<<endl;
+       cin>>n1>>n2;
+       sum=n1+n2;
+       cout<<"sum is="<<sum<<endl;
+       break;
+       
+       case 2:
+       
+       cout<<"enter to nos. to sub"<<endl;
+       cin>>n1>>n2;
+       sub=n1-n2;
+       cout<<"sub is="<<sub<<endl;
+       break;
+       
+       case 3:
+       
+       cout<<"enter to nos. to mul"<<endl;
+       cin>>n1>>n2;
+       mul=n1*n2;
+       cout<<"mul is="<<mul<<endl;
+       break;
+       
+       case 4:
+       
+       cout<<"enter to nos. to div"<<endl;
+       cin>>n1>>n2;
+       div=n1/n2;
+       cout<<"div is="<<div<<endl;
+       break;
+       
+       default:
+       cout<<"enter a valid number"<<endl;
+   }
+
+    return 0;
+}
