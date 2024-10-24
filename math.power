@@ -1,0 +1,13 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main() 
+{ 
+    int n,n1;
+    cout<<"enter the no. to find power "<<endl;
+    cin>>n;
+    cout<<"enter power "<<endl;
+    cin>>n1;
+    cout<<pow(n,n1);
+return 0;
+}
