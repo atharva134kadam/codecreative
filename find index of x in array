@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main() {
+    int arr[]={3,5,7,9};
+   int n=sizeof(arr)/sizeof(arr[0]);
+   cout<<" "<<n<<endl;
+    int x=5;
+    bool found=false;
+    int index=0;
+    for(int i=1;i<=n;i++)
+    {
+        if(x==arr[i])
+        {
+            found=true;
+            index=i;
+            break;
+        }
+    }
+    if (found)
+    {
+        cout<<"true"<<endl<<index<<endl;
+    }
+    else
+    {
+        cout<<"false";
+    }
+    return 0;
+}
